@@ -1,0 +1,22 @@
+{
+  "name": "remark-tsc-lsif",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.12.3",
+    "remark-code-frontmatter": "^1.0.0",
+    "remark-highlight.js": "^5.1.1",
+    "remark-html": "^10.0.0",
+    "remark-parse": "^7.0.1",
+    "to-vfile": "^6.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "https://github.com/dbaeumer/TypeScript/releases/download/release%2Flisf%2F3.5.2/typescript-3.5.2-lsif.tgz",
+    "unified": "^8.4.1",
+    "vfile-reporter": "^6.0.0"
+  },
+  "dependencies": {
+    "lsif-tsc": "^0.4.10",
+    "remark-code-extra": "^1.0.1"
+  }
+}
