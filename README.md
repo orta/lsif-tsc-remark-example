@@ -1,9 +1,9 @@
 ## Example repo of using recast and ts-lsif
 
-We can standardise hover highlights, and static site tooling by mixing the LSP standard format
-with markdown parsing.
+We can standardise hover highlights, and static site tooling by mixing the LSP standard static format
+called [LSIF](https://github.com/microsoft/lsif-node) when parsing TS code blocks in markdown.
 
-You can testy it out by cloning and running:
+You can test it out by cloning and running:
 
 ```sh
 yarn install
@@ -117,4 +117,4 @@ and converts it to HTML
 </script><pre><code class="hljs language-typescript"><span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Yep"</span>)</code></pre></div>
 ```
 
-Form there it's a matter of finessing some of the data.
+There's some errors in the results, but it's really just a matter of finessing some of the settings etc now.
